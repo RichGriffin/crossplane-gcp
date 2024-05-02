@@ -6,6 +6,6 @@ metadata:
     docs.crossplane.io/example: provider-gcp
 spec:
   forProvider:
-    location: europe-north1
+    location: US
   providerConfigRef:
     name: default
