@@ -30,3 +30,4 @@ package/
 /vendor
 /.vendor-new
 .vscode
+oldgcpcred.json
