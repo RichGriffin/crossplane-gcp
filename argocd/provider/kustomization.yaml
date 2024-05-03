@@ -1,4 +1,5 @@
 resources:
+  - providerconfig.yaml
   - providercompute.yaml
   - providercontainer.yaml
   - providerstorage.yaml
