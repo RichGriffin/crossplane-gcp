@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: argocd
+    path: 
     repoURL: https://github.com/RichGriffin/crossplane-gcp
     targetRevision: main
   syncPolicy:
@@ -18,4 +18,4 @@ spec:
       prune: true
       selfHeal: false
     syncOptions:
-    - CreateNamespace=true
+    - CreateNamespace=false
