@@ -1,0 +1,12 @@
+apiVersion: compute.gcp.upbound.io/v1beta1
+kind: Address
+metadata:
+  annotations:
+    meta.upbound.io/example-id: compute/v1beta1/vpntunnel
+    upjet.upbound.io/manual-intervention: Dependant reference types not currently supported
+  labels:
+    testing.upbound.io/example-name: vpn-tunnel
+  name: vpn-tunnel
+spec:
+  forProvider:
+    region: europe-north1

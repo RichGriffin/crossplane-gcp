@@ -1,2 +1,18 @@
 resources:
-  - bucket.yaml
+  - bucket.yamlconfigurations:
+  # - kustomizeconfig.yaml
+
+resources:
+  - globaladdress.yaml
+  - address.yaml
+  - network.yaml
+  # - subnetwork.yaml
+  - firewall.yaml
+  - router.yaml
+  - externalvpngateway.yaml
+  - networkpeering.yaml
+  - disk.yaml
+  - persistentdisk.yaml
+  - globalforwardingrule.yaml
+  - urlmap.yaml
+  - nodegroup.yaml
