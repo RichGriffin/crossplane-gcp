@@ -1,3 +1,4 @@
 resources:
   - cluster.yaml
   - clusternodepool.yaml
+  - nodepool.yaml
