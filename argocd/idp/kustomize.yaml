@@ -1,1 +1,4 @@
-
+resources:
+  - cluster_XRD.yaml
+  - cluster_Composition.yaml
+  - cluster_XR.yaml
