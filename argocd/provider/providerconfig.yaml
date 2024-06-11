@@ -3,7 +3,7 @@ kind: ProviderConfig
 metadata:
   name: default
 spec:
-  projectID: my-project-crossplane
+  projectID: pet-dev-sandbox-250723
   credentials:
     source: Secret
     secretRef:
