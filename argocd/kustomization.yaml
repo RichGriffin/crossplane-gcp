@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - configmap.yaml
-- app.yaml
+# - app.yaml
 - provider
 - storage
 # - compute
