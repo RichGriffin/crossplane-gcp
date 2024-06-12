@@ -3,5 +3,5 @@ kind: Kustomization
 
 resources:
   - cluster.yaml
-  - clusternodepool.yaml
-  - nodepool.yaml
+#  - clusternodepool.yaml
+ # - nodepool.yaml
