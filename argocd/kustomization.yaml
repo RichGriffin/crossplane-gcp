@@ -7,5 +7,5 @@ resources:
 - provider
 - storage
 # - compute
-# - container
+- container
 - idp
