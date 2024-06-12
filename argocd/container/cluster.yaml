@@ -14,3 +14,7 @@ spec:
     ipAllocationPolicy:
       - {}
     location: europe-north1
+  writeConnectionSecretToRef:
+    name: gke-managed-resources-kubeconfig
+    namespace: crossplane-system
+  
