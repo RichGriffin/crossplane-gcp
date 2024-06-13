@@ -5,10 +5,10 @@ metadata:
     meta.upbound.io/example-id: compute/v1beta1/subnetwork
   labels:
     testing.upbound.io/example-name: example_subnet
-  name: example-subnet
+  name: crossplane-subnet
 spec:
   forProvider:
-    networkRef: basic-network
+    networkRef:crossplane-network
     ipCidrRange: 10.2.0.0/16
     networkSelector:
       matchLabels:
