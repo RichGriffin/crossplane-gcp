@@ -6,6 +6,6 @@ resources:
 # - app.yaml
 - provider
 - storage
-# - compute
+- compute
 - container
 - idp
