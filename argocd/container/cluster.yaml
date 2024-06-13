@@ -8,6 +8,8 @@ metadata:
   name: cluster
 spec:
   forProvider:
+    network: "projects/pet-dev-sandbox/global/networks/crossplane-network"
+    subnetwork: "projects/pet-dev-sandbox/regions/europe-west1/subnetworks/crossplane-subnet"
     deletionProtection: false
     enableAutopilot: true
     enableIntranodeVisibility: true
