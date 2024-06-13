@@ -8,6 +8,7 @@ metadata:
   name: example-subnet
 spec:
   forProvider:
+    networkRef: basic-network
     ipCidrRange: 10.2.0.0/16
     networkSelector:
       matchLabels:
