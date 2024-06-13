@@ -8,7 +8,8 @@ metadata:
   name: crossplane-subnet
 spec:
   forProvider:
-    networkRef: crossplane-network
+    networkRef: 
+      name: crossplane-network
     ipCidrRange: 10.2.0.0/16
     networkSelector:
       matchLabels:
